@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & button {
+    width: calc(100% - 1.2rem);
+    height: 2.6rem;
+    margin: 2.5rem 0;
+    color: $color-white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: $color-green;
+    border: none;
+    border-radius: 0.7rem;
+  }
+  & a {
+    margin: 2.5rem 0;
+    border: none;
+    color: $color-green;
+    &:hover {
+      border: $color-green;
+    }
+  }
+}
