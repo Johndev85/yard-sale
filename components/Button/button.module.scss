@@ -15,11 +15,16 @@
     background-color: $color-green;
     border: none;
     border-radius: 0.7rem;
+    cursor: pointer;
+    &:hover {
+      background-color: $color-dark-green;
+    }
   }
   & a {
     margin: 2.5rem 0;
     border: none;
     color: $color-green;
+    cursor: pointer;
     &:hover {
       border: $color-green;
     }

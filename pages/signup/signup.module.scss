@@ -1,0 +1,41 @@
+@import '../../styles/variables';
+
+@media screen and (min-width: 360px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    &__top {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &__form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        & label {
+          width: calc(100% - 1.2rem);
+          margin: 0.5rem 0;
+          text-align: left;
+          font-weight: bold;
+        }
+        & input {
+          width: calc(100% - 1.2rem);
+          margin: 0.5rem 0;
+          height: 2.6rem;
+          border: none;
+          background-color: $color-grey-light;
+        }
+      }
+    }
+    &__bottom {
+      display: flex;
+      justify-content: center;
+      margin: 1rem;
+    }
+  }
+}
