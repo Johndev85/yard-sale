@@ -18,18 +18,22 @@ const SignUp = () => {
           alt="logo yard-sale"
         ></Image>
 
-        <form action="" className={styles.container__top__form}>
-          <label htmlFor="">Email address</label>
-          <input type="text" placeholder="example@email.com" />
+        <h1>My account</h1>
 
+        <form action="" className={styles.container__top__form}>
+          <label htmlFor="">Name</label>
+          <input type="text" placeholder="Your name" />
+
+          <label htmlFor="">Email address</label>
+          <input type="email" placeholder="example@email.com" />
           <label htmlFor="">Password</label>
           <input type="password" />
-          <Button btn title="Log in" />
+          <Button btn title="Create" />
         </form>
-        <Button url="#" title="Forgot my password" />
       </div>
       <div className={styles.container__bottom}>
-        <Button url="#" title="Sign up" />
+        <span>Do you have already account?</span>
+        <Button url="/login" title="Login" />
       </div>
     </section>
   )

@@ -26,10 +26,10 @@ const Login = () => {
           <input type="password" />
           <Button btn title="Log in" />
         </form>
-        <Button url="#" title="Forgot my password" />
+        <Button url="/password-recovery" title="Forgot my password" />
       </div>
       <div className={styles.container__bottom}>
-        <Button url="#" title="Sign up" />
+        <Button url="/signup" title="Sign up" />
       </div>
     </section>
   )
